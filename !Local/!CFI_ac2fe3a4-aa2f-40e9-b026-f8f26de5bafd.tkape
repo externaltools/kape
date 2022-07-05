@@ -1,0 +1,104 @@
+Description: Cyber  Forensic Investigaiton Collection
+Author: Raul Cabrera
+Version: 1.0 # Required
+Id: 0d265b26-e993-4cba-933b-8a4a8928515f
+RecreateDirectories: true # Required
+Targets:
+    -
+        Name: Event Logs
+        Category: Event Logs
+        Path: EventLogs.tkape
+    -
+        Name: Evidence of Execution
+        Category: Evidence of Execution
+        Path: EvidenceOfExecution.tkape
+    -
+        Name: File System
+        Category: File System
+        Path: FileSystem.tkape
+    -
+        Name: LNKFilesAndJumpLists
+        Category: File Access
+        Path: LNKFilesAndJumpLists.tkape
+    -
+        Name: PowerShellConsole
+        Category: Evidence Of Execution
+        Path: PowerShellConsole.tkape
+    -
+        Name: RecycleBin InfoFiles
+        Category: File Deletion
+        Path: RecycleBin_InfoFiles.tkape
+    -
+        Name: RegistryHives
+        Category: Registry Hives
+        Path: RegistryHives.tkape
+    -
+        Name: ScheduledTasks
+        Category: ScheduledTasks
+        Path: ScheduledTasks.tkape
+    -
+        Name: SRUM
+        Category: SRUM
+        Path: SRUM.tkape
+    -
+        Name: ThumbCache
+        Category: Thumbcache
+        Path: Thumbcache.tkape
+    -
+        Name: USBDevicesLogs
+        Category: USB
+        Path: USBDevicesLogs.tkape
+    -
+        Name: WindowsIndexSearch
+        Category: Search
+        Path: WindowsIndexSearch.tkape
+    -
+        Name: Antivirus
+        Category: Antivirus
+        Path: Antivirus.tkape
+    -
+        Name: CloudStorage_Metadata
+        Category: Apps
+        Path: CloudStorage_Metadata.tkape
+    -
+        Name: CombinedLogs
+        Category: WindowsLogs
+        Path: EventLogs.tkape
+    -
+        Name: EvidenceOfExecution
+        Category: EvidenceOfExecution
+        Path: EvidenceOfExecution.tkape
+    -
+        Name: WebBrowsers
+        Category: Communications
+        Path: WebBrowsers.tkape
+    -
+        Name: SUM
+        Category: Logs
+        Path: SUM.tkape
+    -
+        Name: LNKFilesAndJumpLists
+        Category: LNKFiles
+        Path: LNKFilesAndJumpLists.tkape
+    -
+        Name: MessagingClients
+        Category: MessagingClients
+        Path: MessagingClients.tkape
+    -
+        Name: RecycleBin_InfoFiles
+        Category: RecycleBin_InfoFiles
+        Path: RecycleBin_InfoFiles.tkape
+    -
+        Name: RemoteAccess
+        Category: ApplicationLogs
+        Path: RemoteAdmin.tkape
+    -
+        Name: WindowsTimeline
+        Category: Targets
+        Path: WindowsTimeline.tkape
+    -
+        Name: USBDetective
+        Category: Targets
+        Path: USBDetective.tkape
+# Documentation
+# Please delete all Required/Optional comments above. N/A if no Documentation present. End with new line.
